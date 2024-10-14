@@ -16,5 +16,9 @@ while i < 3 :
     print(list_nama[i])
     i+=1 # increment ( i = i + 1)
 
+cars = ["honda","toyota","suzuki"]
+for car in cars:
+    print(car)
+
 
 
