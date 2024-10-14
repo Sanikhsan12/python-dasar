@@ -16,9 +16,14 @@ while i < 3 :
     print(list_nama[i])
     i+=1 # increment ( i = i + 1)
 
+# print list menggunakan for
 cars = ["honda","toyota","suzuki"]
 for car in cars:
     print(car)
 
+# print list dan index dari array menggunakan enumerate
+cars = ['hoda','toyota','bmw','audi']
+for index, car in enumerate(cars):
+    print(f'Index {index} = {car}')
 
 
